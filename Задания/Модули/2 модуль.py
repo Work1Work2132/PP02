@@ -19,7 +19,6 @@ def convert_to_black_and_white(image_path):
        
         bw_image_path = f"{base}_bw.jpg"
         
-    
         bw_img.save(bw_image_path)
         
         print(f"Изображение сохранено как {bw_image_path}")
