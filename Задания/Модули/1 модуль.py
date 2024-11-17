@@ -10,8 +10,8 @@ def bw_convert(path):
 
     grayscale = foto.convert('L')
 
-    grayscale.save(path + "лесчб.jpg")
+    grayscale.save(path + "nameчб.jpg")
 
     grayscale.show()
 
-bw_convert(r"C:\pythonPP02\лес.jpg")
+bw_convert(r"C:\pythonPP02\name.jpg")
