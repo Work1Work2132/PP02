@@ -12,7 +12,6 @@ def convert_to_black_and_white(image_path):
       
         img = Image.open(image_path)
         
-      
         bw_img = img.convert('L')
         
         base, ext = os.path.splitext(image_path)
